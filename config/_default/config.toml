@@ -1,0 +1,5 @@
+baseURL = 'https://blog.varigergo.hu'
+languageCode = 'hu-HU'
+title = 'Vári blogja'
+
+theme = "vyberpunk"

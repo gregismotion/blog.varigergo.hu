@@ -1,0 +1,9 @@
+[[start]]
+	name = "cikkek"
+	url = "/post"
+	weight = 10
+
+[[end]]
+	name = "rólam"
+	url = "https://varigergo.hu"
+	weight = 1
