@@ -1,6 +1,6 @@
 [[start]]
 	name = "cikkek"
-	url = "/post"
+	url = "/posts"
 	weight = 10
 
 [[end]]

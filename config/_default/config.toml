@@ -3,3 +3,5 @@ languageCode = 'hu-HU'
 title = 'Vári Gergő blogja'
 
 theme = "vyberpunk"
+
+summarylength = 30
