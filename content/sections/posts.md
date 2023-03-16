@@ -4,3 +4,4 @@ id: 1
 title: "Legújabb posztok"
 ---
 {{< newest-posts >}}
+{{< all-post-button >}}
