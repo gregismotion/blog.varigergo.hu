@@ -5,3 +5,7 @@ title = 'Vári Gergő blogja'
 theme = "vyberpunk"
 
 summarylength = 30
+
+[params.matomo]
+url = "https://matomo.varigergo.hu"
+id = 1
