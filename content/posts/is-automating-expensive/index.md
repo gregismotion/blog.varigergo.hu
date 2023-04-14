@@ -27,4 +27,4 @@ A mai világban nagyon olcsó egy saját szervert futtatni és a szoftver is lé
 
 Szóval kibéreltem egy VPS-t és feltelepítettem rá minden szükséges szolgáltatást. "A gép forog, az alkotó pihen."
 
-Ha jobban érdekel ez a téma, [ajánlom ezt a kérdőívet](https://varigergo.hu/questionnaires/automation).
+Ha jobban érdekel ez a téma, [ajánlom ezt a kérdőívet](https://s.varigergo.hu/automblog0).
