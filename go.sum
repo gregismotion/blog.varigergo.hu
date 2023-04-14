@@ -36,3 +36,5 @@ github.com/gergovari/vyberpunk v0.0.0-20230413141348-e9aca915cf69 h1:zhBaiG4ZQfU
 github.com/gergovari/vyberpunk v0.0.0-20230413141348-e9aca915cf69/go.mod h1:19EFcXwRJDoGGOx+yDvKkMbbpntpHIZsJUeN2SrNPCQ=
 github.com/gergovari/vyberpunk v0.0.0-20230414125227-59864bffbe42 h1:isTtsNeNdqIDgOD+DsAndiZpFi1piOU4kuaC0DqIjmY=
 github.com/gergovari/vyberpunk v0.0.0-20230414125227-59864bffbe42/go.mod h1:19EFcXwRJDoGGOx+yDvKkMbbpntpHIZsJUeN2SrNPCQ=
+github.com/gergovari/vyberpunk v0.0.0-20230414144939-880c3c842949 h1:D86+u/sWufa4/pYS2ngH2tVczi8ITo/k69v6o/WzT9g=
+github.com/gergovari/vyberpunk v0.0.0-20230414144939-880c3c842949/go.mod h1:19EFcXwRJDoGGOx+yDvKkMbbpntpHIZsJUeN2SrNPCQ=

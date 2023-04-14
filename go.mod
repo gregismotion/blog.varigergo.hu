@@ -4,4 +4,4 @@ go 1.19
 
 //replace github.com/gergovari/vyberpunk => ../vyberpunk
 
-require github.com/gergovari/vyberpunk v0.0.0-20230414125227-59864bffbe42 // indirect
+require github.com/gergovari/vyberpunk v0.0.0-20230414144939-880c3c842949 // indirect
