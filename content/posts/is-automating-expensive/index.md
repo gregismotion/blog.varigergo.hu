@@ -6,7 +6,7 @@ tags: [ "automatizálás" ]
 ---
 Zapier, havi 7 000 Ft és 300 000 Ft között mozog. Az automatizálás sokban segítheni a bizniszedet vagy akár a mindennapi életedet. Azért az ember elgondolkodik, megéri neki évente 3,6 millió forintért?
 
-Nagyobb cégek lehet hogy ezt egyből bevállalhatják de a kisebb vállalkozóknak lehet nincs meg erre a tőkéje. Van egy másik híresebb szolgáltatás is erre.
+Nagyobb cégek lehet hogy ezt egyből bevállalhatják de a kisebb vállalkozóknak nincs meg erre a tőkéje. Van egy másik híresebb szolgáltatás is erre.
 
 # If This Then That
 Az IFTTT nevű szolgáltatás ugyan olcsóbb (havi 2 000 Ft) mégis ennek is megvannak a problémái.
@@ -20,4 +20,7 @@ Saját pluginokat nem írhatsz/írathatsz ehhez a platformhoz, hozzá se nyúlha
 ## Adatvédelem
 A felhasználóid adatát csak akkor tarthatod a kezedben, ha tényleg te is tárolod őket. Ez visszavezet valamennyire a centralizációra is: ha feltörik a platformot amit használsz, akkor véged. Persze, ez akkor is megtörténhet ha a te szerveredről van szó: de kisebb célpont vagy.
 
+# A megoldás
+A mai világban nagyon olcsó egy saját szervert futtatni és a szoftver is létezik. Nyílt a forráskód és te gondoskodsz az adatok tárolásáról. A szoftver amit ajánlok: n8n. Az összes kritériumot teljesíti, és még egyszerű felállítani is.
 
+Ha jobban érdekel ez a téma, [ajánlom ezt a kérdőívet](https://varigergo.hu/questionnaires/automation).
