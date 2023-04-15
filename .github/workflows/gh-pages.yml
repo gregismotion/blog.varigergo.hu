@@ -12,7 +12,7 @@ jobs:
       - name: SSH keys
         uses: webfactory/ssh-agent@v0.5.0
         with:
-          ssh-private-keys: |
+          ssh-private-key: |
             ${{ secrets.SSH_CONTENT }}            
 
       - name: Setup Hugo
