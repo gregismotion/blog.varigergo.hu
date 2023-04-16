@@ -2,6 +2,11 @@ baseURL = 'https://blog.varigergo.hu'
 languageCode = 'hu-HU'
 title = 'Vári Gergő blogja'
 
+[taxonomies]
+	author = "authors"
+	tag = "tags"
+	category = "categories"
+
 [module]
 	[[module.imports]]
 		path = "github.com/gergovari/vyberpunk"
@@ -11,8 +16,6 @@ title = 'Vári Gergő blogja'
 		[[module.imports.mounts]]
 			source = "content/"
 			target = "content/"
-
-theme = "vyberpunk"
 
 [params.matomo]
 url = "https://matomo.varigergo.hu"
