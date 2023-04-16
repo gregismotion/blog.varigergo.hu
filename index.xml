@@ -1,7 +1,309 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vári Gergő blogja</title><link>https://blog.varigergo.hu/</link><description>Recent content on Vári Gergő blogja</description><generator>Hugo -- gohugo.io</generator><language>hu-HU</language><lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.varigergo.hu/index.xml" rel="self" type="application/rss+xml"/><item><title>Stripe</title><link>https://blog.varigergo.hu/checkout/stripe/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.varigergo.hu/checkout/stripe/</guid><description> Fizetés</description></item><item><title>Olyan LASSÚ vagy hogy se nőd, se BEVÉTELED nem lesz!</title><link>https://blog.varigergo.hu/posts/worth-optimizing-site/</link><pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate><guid>https://blog.varigergo.hu/posts/worth-optimizing-site/</guid><description>Ha sok úgynevezett Píkáp artisztot hallgattál (de minek&amp;hellip;) vagy csak ismered a mai világot akkor tudod hogy az emberek figyelme használhatatlan. Ha valaki mondjuk sose kap üzenetet Instagramon, biztos feltűnő neki az a pár amit lát. Persze ha mindennap több százat kapsz, akkor nagyon másnak (és legfőképpen személyesnek) kell annak lennie.
-Tehát a beérkezett üzenetek eloszlása a nemek közötti statisztikák alapján nem ajánlom a &amp;ldquo;nem írok vissza napokig taktikát&amp;rdquo;. Mondom én, aki notoriusan nem nézi az üzeneteit&amp;hellip; (helyette ezt írom.</description></item><item><title>Amikor élesben kell TÍZ ÉV frissítéseit felrakni...</title><link>https://blog.varigergo.hu/posts/automate-marketing/</link><pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate><guid>https://blog.varigergo.hu/posts/automate-marketing/</guid><description>&amp;hellip;a kérdőív már fel volt rakva, az e-mailek már elkezdtek kimenni. Kis, szerény szobámban már terveztem elindulni bulizni. Mégis, valami nagyon fapadosnak érződött. Mindenféle hiba, tényleg használja valaki ezt élesben? Akkor megláttam, &amp;ldquo;v2&amp;rdquo;-es verzión vagyok. A legújabb a &amp;ldquo;v4&amp;rdquo;-es: VAGY 10 ÉVVEL LEMARADTAM!
-Marketing Ha az ember szeretne online (vagy akár bárhol) mesés termékeket árulni: akkor a célközönséggel kell kezdeni. Nekem (és sok más hajóstársamnak) ez eléggé visszafele tűnik: hisz nincs is mit eladnom!</description></item><item><title>Ennyire DRÁGA lenne automatizálni?</title><link>https://blog.varigergo.hu/posts/is-automating-expensive/</link><pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate><guid>https://blog.varigergo.hu/posts/is-automating-expensive/</guid><description>Ahogy most elindítottam a kurzusaimat, meg kellett tanulnom hogyan automatizáljam a marketinget, a vásárlások feldolgozását és minden mást. Persze, mehettem volna a szokásos és bejárt úton mindenféle Shopifyal meg Mailchimppel, de én szeretek a magam ura lenni.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>Vári Gergő blogja</title><link>https://blog.varigergo.hu/</link><description>Recent content on Vári Gergő blogja</description><generator>Hugo -- gohugo.io</generator><language>hu-HU</language><lastBuildDate>Sun, 16 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.varigergo.hu/index.xml" rel="self" type="application/rss+xml"/><item><title>Stripe</title><link>https://blog.varigergo.hu/checkout/stripe/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.varigergo.hu/checkout/stripe/</guid><description> Fizetés</description><content:encoded><![CDATA[<script src="https://js.stripe.com/v3/"></script>
+
+
+
+<script async src="/js/checkout/stripe.min.7d0a81a85e748452a9793bd93d8181b7e9eb03a43750d3fef4180f0f2aec7b0582f9c91b53bc7636ea93ebb03ebca003.js" data-key="%!s(<nil>)" data-backend="%!s(<nil>)" data-done="%!s(<nil>)" data-color-bg="%!s(<nil>)" data-color-text="%!s(<nil>)" data-color-accent="%!s(<nil>)" data-color-placeholder="%!s(<nil>)" integrity="sha384-fQqBqF50hFKpeTvZPYGBt&#43;nrA6Q3UNP&#43;9BgPDyrsewWC&#43;ckbU7x2NuqT67A&#43;vKAD"></script>
+
+<div class="payment-holder payment-container">
+	<form id="payment-form">
+		<div id="link-authentication-element"></div>
+		<div id="payment-element"></div>
+		<button id="submit" class="button">
+			<div class="spinner hidden" id="spinner"></div>
+			<span id="button-text">Fizetés</span>
+		</button>
+		<div id="payment-message" class="hidden"></div>
+	</form>
+</div>
+
+]]></content:encoded></item><item><title>Olyan LASSÚ vagy hogy se nőd, se BEVÉTELED nem lesz!</title><link>https://blog.varigergo.hu/posts/worth-optimizing-site/</link><media:thumbnail url="https://blog.varigergo.hu/posts/worth-optimizing-site/thumbnail.jpg"/><pubDate>Sun, 16 Apr 2023 00:00:00 +0000</pubDate><guid>https://blog.varigergo.hu/posts/worth-optimizing-site/</guid><description>Ha sok úgynevezett Píkáp artisztot hallgattál (de minek&amp;hellip;) vagy csak ismered a mai világot akkor tudod hogy az emberek figyelme használhatatlan. Ha valaki mondjuk sose kap üzenetet Instagramon, biztos feltűnő neki az a pár amit lát. Persze ha mindennap több százat kapsz, akkor nagyon másnak (és legfőképpen személyesnek) kell annak lennie.
+Tehát a beérkezett üzenetek eloszlása a nemek közötti statisztikák alapján nem ajánlom a &amp;ldquo;nem írok vissza napokig taktikát&amp;rdquo;. Mondom én, aki notoriusan nem nézi az üzeneteit&amp;hellip; (helyette ezt írom.</description><content:encoded><![CDATA[<p>Ha sok úgynevezett <span class="highlight">Píkáp artisztot</span> hallgattál (<em>de minek&hellip;</em>) vagy csak ismered a mai világot akkor tudod hogy <span class="highlight">az emberek figyelme használhatatlan</span>. Ha valaki mondjuk sose kap üzenetet Instagramon, biztos feltűnő neki az a pár amit lát. Persze ha mindennap több százat kapsz, akkor nagyon másnak (és legfőképpen személyesnek) kell annak lennie.</p>
+<p>Tehát a beérkezett üzenetek eloszlása a nemek közötti statisztikák alapján nem ajánlom a &ldquo;<em>nem írok vissza napokig taktikát</em>&rdquo;. Mondom én, aki notoriusan nem nézi az üzeneteit&hellip; (helyette ezt írom.)
+Illetve az üzeneted nem szólhat túl nagy demográfiának, mert nem lesz feltűnő. <span class="highlight">Minél specifikusabb, annál jobb.</span></p>
+<p>Oké, és? Tudtad hogy a felhasználok NAGY része otthagy egy weboldalt ami nem tölt be 4 másodperc alatt (mint mondjuk amikor a klubban a zene közben próbálsz beszélgetni, de lassan vág az agyad)? <strong>Annyival kevesebb bevétel.</strong> A követőid TÖBB MINT FELE nem fog visszatérni az oldaladra ha az élmény nem kifogástalan. <strong>Annyival kevesebb bevétel.</strong> Meglehet hogy ezek a statisztikák már nem is relevánsak: elég régen hallottam őket. Viszont a helyzet csak rosszabb lesz: az emberek figyelme és az ablak amíg azt fenn tudod tartani rohamosan csökken. <strong><span class="highlight">ANNYIVAL KEVESEBB BEVÉTEL!</span></strong> (<em>&hellip;és annyival messzebb van az a fehér yacht ahonnan ellátsz a kedvenc partodig</em>&hellip;)</p>
+<p>Akkor minden egyes pillanatban a gép előtt kéne ülnöd mint egy videójáték függő aki sosem fürdik? Persze, ha nem automatizálod a vállalkozásod folyamatait. <a href="https://s.varigergo.hu/automblog10">Ez nem olyan nehéz, akár meg is mutathatom neked hogyan kell.</a></p>
+<p>Ne félj attól hogy zavarod a közönséged a <span class="highlight">folyamatos tartalomgyártás</span>sal: épp ellenkezőleg. Mindenki rászokott már a tartalomfogyasztásra, <span class="highlight">te vagy a drogdíler.</span> Megfelelő automatizálássál csak egyszer kell megírnod a szöveged, és minden csatornádra el is jut. Akár elég egy jó csajozós szöveg is, ha elég nagy számokkal dolgozol. <strong>Elég meggyőznőd csak egy töredékét azoknak akik hallják az üzeneted.</strong></p>
+<p>Szóval ne légy rest: <a href="https://s.varigergo.hu/automblog11">gyártsd a tartalmat, automatizálj és csajozz.</a></p>
+]]></content:encoded></item><item><title>Amikor élesben kell TÍZ ÉV frissítéseit felrakni...</title><link>https://blog.varigergo.hu/posts/automate-marketing/</link><media:thumbnail url="https://blog.varigergo.hu/posts/automate-marketing/thumbnail.png"/><pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate><guid>https://blog.varigergo.hu/posts/automate-marketing/</guid><description>&amp;hellip;a kérdőív már fel volt rakva, az e-mailek már elkezdtek kimenni. Kis, szerény szobámban már terveztem elindulni bulizni. Mégis, valami nagyon fapadosnak érződött. Mindenféle hiba, tényleg használja valaki ezt élesben? Akkor megláttam, &amp;ldquo;v2&amp;rdquo;-es verzión vagyok. A legújabb a &amp;ldquo;v4&amp;rdquo;-es: VAGY 10 ÉVVEL LEMARADTAM!
+Marketing Ha az ember szeretne online (vagy akár bárhol) mesés termékeket árulni: akkor a célközönséggel kell kezdeni. Nekem (és sok más hajóstársamnak) ez eléggé visszafele tűnik: hisz nincs is mit eladnom!</description><content:encoded><![CDATA[<p>&hellip;a kérdőív már fel volt rakva, az e-mailek már elkezdtek kimenni. Kis, szerény szobámban már terveztem elindulni bulizni. Mégis, valami nagyon fapadosnak érződött. Mindenféle hiba, tényleg használja valaki ezt élesben? Akkor megláttam, &ldquo;v2&rdquo;-es verzión vagyok. A legújabb a &ldquo;v4&rdquo;-es: VAGY 10 ÉVVEL LEMARADTAM!</p>
+<h1 id="marketing">Marketing</h1>
+<p>Ha az ember szeretne online (vagy akár bárhol) mesés termékeket árulni: akkor a célközönséggel kell kezdeni. Nekem (és sok más hajóstársamnak) ez eléggé visszafele tűnik: hisz nincs is mit eladnom! Mégis, csak akkor lehetsz sikeres ha rászabhatod az árudat a vásárlóidra.</p>
+<p>Sajnos elég kevés jó megoldás van erre amit te is futtathatsz a saját szervereden: ami van, az is feleslegesen komplikált míg az alap funkciókat nem tudják végrehajtani. A végén a Mautic-ra tettem a voksom de még van mit kitalálnom.</p>
+<h1 id="amit-elrontottam">Amit elrontottam&hellip;</h1>
+<p>Hogyan sikerült felraknom egy 10 ÉVES VERZIÓT? Egyszerű: itt a &ldquo;latest&rdquo; verziót (docker) csak visszafele kompatabilitásból tartják: hogy a régi rendszerek tovább müködjenek. Igen ám, de ez az akkori verzióra mutat nem a mostanira.</p>
+<p>A baj ott volt hogy a migráció v2 és v4 között szinte lehetetlen, legalábbis elég nehézkes. A legegyszerűbb az volt hogy lenyalultam az egészet és újrakezdtem. A kontaktokat azért átexportáltam.</p>
+<h1 id="konkluzió">Konkluzió</h1>
+<p>Szóval a lényeg, mielőtt bármit éles rendszerre raksz fel: <strong>ellenőrizz mindent</strong>. Különben sokszor lesz plusz munkád&hellip;</p>
+<p><em>A buli türhető volt: ki a fene szereti klubbokat&hellip;</em></p>
+]]></content:encoded></item><item><title>Ennyire DRÁGA lenne automatizálni?</title><link>https://blog.varigergo.hu/posts/is-automating-expensive/</link><media:thumbnail url="https://blog.varigergo.hu/posts/is-automating-expensive/thumbnail.jpg"/><pubDate>Fri, 14 Apr 2023 00:00:00 +0000</pubDate><guid>https://blog.varigergo.hu/posts/is-automating-expensive/</guid><description>Ahogy most elindítottam a kurzusaimat, meg kellett tanulnom hogyan automatizáljam a marketinget, a vásárlások feldolgozását és minden mást. Persze, mehettem volna a szokásos és bejárt úton mindenféle Shopifyal meg Mailchimppel, de én szeretek a magam ura lenni.
 Zapier, havi 7 000 Ft és 300 000 Ft között mozog. Az automatizálás sokban segítheni a bizniszedet vagy akár a mindennapi életedet. Azért az ember elgondolkodik, megéri neki évente 3,6 millió forintért?
-Nagyobb cégek lehet hogy ezt egyből bevállalhatják de a kisebb vállalkozóknak (mint nekem) nincs meg erre a tőkéje.</description></item><item><title/><link>https://blog.varigergo.hu/sections/newsletter/</link><pubDate>Fri, 03 Mar 2023 11:05:21 +0100</pubDate><guid>https://blog.varigergo.hu/sections/newsletter/</guid><description>Mindig FÉLSZ Hogy Egy Lépés Kihagyásával VESZÉLYBE kerülsz?... Elküldök neked egy listát, amire mindig számíthatsz.
-Csak kövesd az utasításokat, és biztos lehetsz a digitális biztonságodban.</description></item><item><title>Legújabb posztok</title><link>https://blog.varigergo.hu/sections/posts/</link><pubDate>Fri, 03 Mar 2023 11:05:21 +0100</pubDate><guid>https://blog.varigergo.hu/sections/posts/</guid><description> Olyan LASSÚ vagy hogy se nőd, se BEVÉTELED nem lesz! optimalizálás,&amp;nbsp weboldal,&amp;nbsp seo,&amp;nbsp automatizálás,&amp;nbsp gyorsaság,&amp;nbsp vállalkozás,&amp;nbsp vállalkozó,&amp;nbsp biznisz,&amp;nbsp pénz,&amp;nbsp bevétel Ha sok úgynevezett Píkáp artisztot hallgattál (de minek&amp;hellip;) vagy csak ismered a mai világot … Olvasd tovább Amikor élesben kell TÍZ ÉV frissítéseit felrakni... &amp;hellip;a kérdőív már fel volt rakva, az e-mailek már elkezdtek kimenni. Kis, szerény szobámban már … Olvasd tovább Ennyire DRÁGA lenne automatizálni? automatizálás Ahogy most elindítottam a kurzusaimat, meg kellett tanulnom hogyan automatizáljam a marketinget, a … Olvasd tovább A TÖBBI POSZT</description></item><item><title>Egyéb fizetési módok</title><link>https://blog.varigergo.hu/checkout/other/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.varigergo.hu/checkout/other/</guid><description>Elfogadok szinte bármit fizetőeszközként, keress meg bátran (work@varigergo.hu) az ajánlatoddal.
-Másold be/fotózd le/&amp;hellip; a kosarad tartalmát a gyorsabb ügyintézéshez.</description></item><item><title>Stripe retúr</title><link>https://blog.varigergo.hu/checkout-done/stripe/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.varigergo.hu/checkout-done/stripe/</guid><description> Várakozás a visszajelzésre... Már bezárhatod ezt az ablakot: e-mailben értesítelek.</description></item></channel></rss>
+Nagyobb cégek lehet hogy ezt egyből bevállalhatják de a kisebb vállalkozóknak (mint nekem) nincs meg erre a tőkéje.</description><content:encoded><![CDATA[<p>Ahogy most elindítottam a kurzusaimat, meg kellett tanulnom hogyan automatizáljam a marketinget, a vásárlások feldolgozását és minden mást. Persze, mehettem volna a szokásos és bejárt úton mindenféle Shopifyal meg Mailchimppel, de én szeretek a magam ura lenni.</p>
+<p>Zapier, havi 7 000 Ft és 300 000 Ft között mozog. Az automatizálás sokban segítheni a bizniszedet vagy akár a mindennapi életedet. Azért az ember elgondolkodik, megéri neki évente 3,6 millió forintért?</p>
+<p>Nagyobb cégek lehet hogy ezt egyből bevállalhatják de a kisebb vállalkozóknak (mint nekem) nincs meg erre a tőkéje. Van egy másik híresebb szolgáltatás is erre.</p>
+<h1 id="if-this-then-that">If This Then That</h1>
+<p>Az IFTTT nevű szolgáltatás ugyan olcsóbb (havi 2 000 Ft) mégis ennek is megvannak a problémái.</p>
+<h2 id="centralizáció">Centralizáció</h2>
+<p>Az ilyen szolgáltatásokkal az a probléma is megjelenik hogy egy ponttól függ az hogy müködik -e a vállalkozásod. Főleg hogyha a digitális térben operálsz: ez jelentős bevételkiesést jelenthet.</p>
+<h2 id="testreszabhatóság">Testreszabhatóság</h2>
+<p>Saját pluginokat nem írhatsz/írathatsz ehhez a platformhoz, hozzá se nyúlhatsz és még rá sem nézhetsz a kódra amit használnak. Így lehet hogy lesznek megoldhatatlan feladatok, és az utóbbi okokból még a vásárlóidat is veszélyezteted.</p>
+<h2 id="adatvédelem">Adatvédelem</h2>
+<p>A felhasználóid adatát csak akkor tarthatod a kezedben, ha tényleg te is tárolod őket. Ez visszavezet valamennyire a centralizációra is: ha feltörik a platformot amit használsz, akkor véged. Persze, ez akkor is megtörténhet ha a te szerveredről van szó: de kisebb célpont vagy.</p>
+<h1 id="a-megoldás">A megoldás</h1>
+<p>A mai világban nagyon olcsó egy saját szervert futtatni és a szoftver is létezik. Nyílt a forráskód és te gondoskodsz az adatok tárolásáról. A szoftver amit ajánlok: n8n. Az összes kritériumot teljesíti, és még egyszerű felállítani is.</p>
+<p>Szóval kibéreltem egy VPS-t és feltelepítettem rá minden szükséges szolgáltatást. &ldquo;A gép forog, az alkotó pihen.&rdquo;</p>
+<p>Ha jobban érdekel ez a téma, <a href="https://s.varigergo.hu/automblog0">ajánlom ezt a kérdőívet</a>.</p>
+]]></content:encoded></item><item><title/><link>https://blog.varigergo.hu/sections/newsletter/</link><pubDate>Fri, 03 Mar 2023 11:05:21 +0100</pubDate><guid>https://blog.varigergo.hu/sections/newsletter/</guid><description>Mindig FÉLSZ Hogy Egy Lépés Kihagyásával VESZÉLYBE kerülsz?... Elküldök neked egy listát, amire mindig számíthatsz.
+Csak kövesd az utasításokat, és biztos lehetsz a digitális biztonságodban.</description><content:encoded><![CDATA[<div class="newsletter-signup">
+	<form target="_parent" action="https://mautic.varigergo.hu/form/submit?formId=1" method="post" id="embedded-subscribe-form" name="embedded-subscribe-form" class="validate" target="_self">
+		<input type="hidden" name="mauticform[formId]" id="mauticform_subscribe_id" value="1">
+		<input type="hidden" name="mauticform[return]" id="mauticform_subscribe_return" value="">
+		<input type="hidden" name="mauticform[formName]" id="mauticform_subscribe_name" value="subscribe">
+		<div id="bots-beware" aria-hidden="true"><input type="text" name="b_30048b300ffcbfa238b616b35_7378082908" tabindex="-1" value=""></div>
+		<div class="columns is-vcentered is-equal-height">
+			<div class="column is-three-fifths">
+				<h1 class="title">Mindig FÉLSZ Hogy Egy Lépés Kihagyásával VESZÉLYBE kerülsz?...</h1>
+				<p class="subtitle">Elküldök neked egy listát, amire mindig számíthatsz.</p>
+				<p>Csak kövesd az utasításokat, és biztos lehetsz a digitális biztonságodban.</p>
+			</div>
+			<div class="column">
+				<div class="input-holder">
+					<input type="email" value="" name="mauticform[email]" class="required email input" id="EMAILcfcd208495d565ef66e7dff9f98764da" required placeholder="E-mail *">
+					<input type="submit" value="FELIRATKOZOM" name="subscribe" id="embedded-subscribecfcd208495d565ef66e7dff9f98764da" class="button is-primary">
+				</div>
+			</div>
+		</div>
+	</form>
+</div>
+
+
+]]></content:encoded></item><item><title>Legújabb posztok</title><link>https://blog.varigergo.hu/sections/posts/</link><pubDate>Fri, 03 Mar 2023 11:05:21 +0100</pubDate><guid>https://blog.varigergo.hu/sections/posts/</guid><description> Olyan LASSÚ vagy hogy se nőd, se BEVÉTELED nem lesz! optimalizálás,&amp;nbsp weboldal,&amp;nbsp seo,&amp;nbsp automatizálás,&amp;nbsp gyorsaság,&amp;nbsp vállalkozás,&amp;nbsp vállalkozó,&amp;nbsp biznisz,&amp;nbsp pénz,&amp;nbsp bevétel Ha sok úgynevezett Píkáp artisztot hallgattál (de minek&amp;hellip;) vagy csak ismered a mai világot … Olvasd tovább Amikor élesben kell TÍZ ÉV frissítéseit felrakni... &amp;hellip;a kérdőív már fel volt rakva, az e-mailek már elkezdtek kimenni. Kis, szerény szobámban már … Olvasd tovább Ennyire DRÁGA lenne automatizálni? automatizálás Ahogy most elindítottam a kurzusaimat, meg kellett tanulnom hogyan automatizáljam a marketinget, a … Olvasd tovább A TÖBBI POSZT</description><content:encoded><![CDATA[<p><div class="columns is-multiline">
+	
+		<div class="column is-one-third">
+			<div class="post color0">
+	
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+	<picture class="img0">
+		
+			
+				<source type="image/webp" srcset="/posts/worth-optimizing-site/thumbnail_hu60c394600f8fc5411c541570ed856828_202650_1332x0_resize_q75_h2_box.webp 1332w,
+					
+					
+					
+						
+							/posts/worth-optimizing-site/thumbnail_hu60c394600f8fc5411c541570ed856828_202650_6ab5fdcb59a633dd0849c6236692ce4a.webp 999w,
+						
+					
+						
+							/posts/worth-optimizing-site/thumbnail_hu60c394600f8fc5411c541570ed856828_202650_19fa1dc07d2f854c9a57acc95d0a8445.webp 666w,
+						
+					
+						
+							/posts/worth-optimizing-site/thumbnail_hu60c394600f8fc5411c541570ed856828_202650_1e4156d3492cd3eb623bf6ede98b049a.webp 333w,
+						
+					
+				"/>
+			
+		
+		<source type="image/jpeg" srcset="/posts/worth-optimizing-site/thumbnail.jpg"/>
+			<a href="/posts/worth-optimizing-site/" aria-label="Olyan LASSÚ vagy hogy se nőd, se BEVÉTELED nem lesz!">
+				<img width="1332px" height="850px" src="/posts/worth-optimizing-site/thumbnail.jpg" alt="Olyan LASSÚ vagy hogy se nőd, se BEVÉTELED nem lesz!" loading="lazy"/>
+			</a>
+	</picture>
+
+	
+
+
+
+
+	<a href="/posts/worth-optimizing-site/"><h1 class="title">Olyan LASSÚ vagy hogy se nőd, se BEVÉTELED nem lesz!</h1></a>
+	
+
+	<div class="post-tags">
+		
+			<a href="/tags/optimaliz%C3%A1l%C3%A1s/">optimalizálás</a>,&nbsp
+		
+			<a href="/tags/weboldal/">weboldal</a>,&nbsp
+		
+			<a href="/tags/seo/">seo</a>,&nbsp
+		
+			<a href="/tags/automatiz%C3%A1l%C3%A1s/">automatizálás</a>,&nbsp
+		
+			<a href="/tags/gyorsas%C3%A1g/">gyorsaság</a>,&nbsp
+		
+			<a href="/tags/v%C3%A1llalkoz%C3%A1s/">vállalkozás</a>,&nbsp
+		
+			<a href="/tags/v%C3%A1llalkoz%C3%B3/">vállalkozó</a>,&nbsp
+		
+			<a href="/tags/biznisz/">biznisz</a>,&nbsp
+		
+			<a href="/tags/p%C3%A9nz/">pénz</a>,&nbsp
+		
+			<a href="/tags/bev%C3%A9tel/">bevétel</a>
+		
+	</div>
+
+
+	Ha sok úgynevezett Píkáp artisztot hallgattál (de minek&hellip;) vagy csak ismered a mai világot …
+	<span class="decorate-link"><a href="/posts/worth-optimizing-site/">Olvasd tovább</a></span>
+</div>
+
+		</div>
+	
+		<div class="column is-one-third">
+			<div class="post color0">
+	
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+	<picture class="img0">
+		
+			
+				<source type="image/webp" srcset="/posts/automate-marketing/thumbnail_hufd24fd56f027487e2ee80976bd688db0_22314_720x0_resize_q75_h2_box_3.webp 720w,
+					
+					
+					
+						
+							/posts/automate-marketing/thumbnail_hufd24fd56f027487e2ee80976bd688db0_22314_3c8ec87e998d075f9967c79e40abb9e3.webp 540w,
+						
+					
+						
+							/posts/automate-marketing/thumbnail_hufd24fd56f027487e2ee80976bd688db0_22314_f9cdcfbc36fea8b3f3a17fd45fc18c25.webp 360w,
+						
+					
+						
+							/posts/automate-marketing/thumbnail_hufd24fd56f027487e2ee80976bd688db0_22314_4ac1d9718ac13be0e300b4a999481cc9.webp 180w,
+						
+					
+				"/>
+			
+		
+		<source type="image/png" srcset="/posts/automate-marketing/thumbnail.png"/>
+			<a href="/posts/automate-marketing/" aria-label="Amikor élesben kell TÍZ ÉV frissítéseit felrakni...">
+				<img width="720px" height="330px" src="/posts/automate-marketing/thumbnail.png" alt="Amikor élesben kell TÍZ ÉV frissítéseit felrakni..." loading="lazy"/>
+			</a>
+	</picture>
+
+	
+
+
+
+
+	<a href="/posts/automate-marketing/"><h1 class="title">Amikor élesben kell TÍZ ÉV frissítéseit felrakni...</h1></a>
+	
+
+
+	&hellip;a kérdőív már fel volt rakva, az e-mailek már elkezdtek kimenni. Kis, szerény szobámban már …
+	<span class="decorate-link"><a href="/posts/automate-marketing/">Olvasd tovább</a></span>
+</div>
+
+		</div>
+	
+		<div class="column is-one-third">
+			<div class="post color0">
+	
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+	<picture class="img0">
+		
+			
+				<source type="image/webp" srcset="/posts/is-automating-expensive/thumbnail_hu2f7818327779077a15f7b26235cbe615_133515_1920x0_resize_q75_h2_box.webp 1920w,
+					
+					
+					
+						
+							/posts/is-automating-expensive/thumbnail_hu2f7818327779077a15f7b26235cbe615_133515_a2622d7b8e8c11f5af3cc47e730633b3.webp 1440w,
+						
+					
+						
+							/posts/is-automating-expensive/thumbnail_hu2f7818327779077a15f7b26235cbe615_133515_74ca641abd0a0750a562ac8e3fadbf17.webp 960w,
+						
+					
+						
+							/posts/is-automating-expensive/thumbnail_hu2f7818327779077a15f7b26235cbe615_133515_374a82b4495eeb2a01ce002cba330f69.webp 480w,
+						
+					
+				"/>
+			
+		
+		<source type="image/jpeg" srcset="/posts/is-automating-expensive/thumbnail.jpg"/>
+			<a href="/posts/is-automating-expensive/" aria-label="Ennyire DRÁGA lenne automatizálni?">
+				<img width="1920px" height="1000px" src="/posts/is-automating-expensive/thumbnail.jpg" alt="Ennyire DRÁGA lenne automatizálni?" loading="lazy"/>
+			</a>
+	</picture>
+
+	
+
+
+
+
+	<a href="/posts/is-automating-expensive/"><h1 class="title">Ennyire DRÁGA lenne automatizálni?</h1></a>
+	
+
+	<div class="post-tags">
+		
+			<a href="/tags/automatiz%C3%A1l%C3%A1s/">automatizálás</a>
+		
+	</div>
+
+
+	Ahogy most elindítottam a kurzusaimat, meg kellett tanulnom hogyan automatizáljam a marketinget, a …
+	<span class="decorate-link"><a href="/posts/is-automating-expensive/">Olvasd tovább</a></span>
+</div>
+
+		</div>
+	
+</div>
+
+<div class="has-text-centered negate-a">
+	<a href="/posts"><button name="all-post-button" id="all-post-buttonc4ca4238a0b923820dcc509a6f75849b" class="button is-primary">A TÖBBI POSZT</button></a>
+</div>
+</p>
+]]></content:encoded></item><item><title>Egyéb fizetési módok</title><link>https://blog.varigergo.hu/checkout/other/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.varigergo.hu/checkout/other/</guid><description>Elfogadok szinte bármit fizetőeszközként, keress meg bátran (work@varigergo.hu) az ajánlatoddal.
+Másold be/fotózd le/&amp;hellip; a kosarad tartalmát a gyorsabb ügyintézéshez.</description><content:encoded><![CDATA[<p>Elfogadok szinte bármit fizetőeszközként, keress meg bátran (<strong><a href="mailto:work@varigergo.hu">work@varigergo.hu</a></strong>) az ajánlatoddal.</p>
+<p>Másold be/fotózd le/&hellip; a kosarad tartalmát a gyorsabb ügyintézéshez.</p>
+]]></content:encoded></item><item><title>Stripe retúr</title><link>https://blog.varigergo.hu/checkout-done/stripe/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.varigergo.hu/checkout-done/stripe/</guid><description> Várakozás a visszajelzésre... Már bezárhatod ezt az ablakot: e-mailben értesítelek.</description><content:encoded><![CDATA[
+
+<script  src="/js/checkout-done/stripe.min.09514f6b6d6cff9872c06415c687993eae67c6e6aab32ce17659887dbf6eff5c0943182908cb7efd4452cb0f7a69d37e.js"  integrity="sha384-CVFPa21s/5hywGQVxoeZPq5nxuaqsyzhdlmIfb9u/1wJQxgpCMt&#43;/URSyw96adN&#43;"></script>
+
+<div id="response-container">
+	<h1 id="response-title" class="title">Várakozás a visszajelzésre...</h1>
+	<h2 id="response-subtitle" class="subtitle">Már bezárhatod ezt az ablakot: e-mailben értesítelek.</h2>
+</div>
+
+]]></content:encoded></item></channel></rss>
