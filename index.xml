@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>Vári Gergő blogja</title><link>https://blog.varigergo.hu/</link><description>Recent content on Vári Gergő blogja</description><generator>Hugo -- gohugo.io</generator><language>hu-HU</language><lastBuildDate>Mon, 17 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.varigergo.hu/index.xml" rel="self" type="application/rss+xml"/><item><title>Stripe</title><link>https://blog.varigergo.hu/checkout/stripe/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.varigergo.hu/checkout/stripe/</guid><description> Fizetés</description><content:encoded><![CDATA[<script src="https://js.stripe.com/v3/"></script>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>Vári Gergő blogja</title><link>https://blog.varigergo.hu/</link><description>Recent content on Vári Gergő blogja</description><generator>Hugo -- gohugo.io</generator><language>hu-HU</language><lastBuildDate>Tue, 18 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.varigergo.hu/index.xml" rel="self" type="application/rss+xml"/><item><title>Stripe</title><link>https://blog.varigergo.hu/checkout/stripe/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.varigergo.hu/checkout/stripe/</guid><description> Fizetés</description><content:encoded><![CDATA[<script src="https://js.stripe.com/v3/"></script>
 
 
 
@@ -16,6 +16,16 @@
 	</form>
 </div>
 
+]]></content:encoded></item><item><title>Túl sok időt vesz el a vállalkozásod?</title><link>https://blog.varigergo.hu/posts/too-much-business/</link><media:thumbnail url="https://blog.varigergo.hu/posts/too-much-business/thumbnail.jpg"/><pubDate>Tue, 18 Apr 2023 00:00:00 +0000</pubDate><guid>https://blog.varigergo.hu/posts/too-much-business/</guid><description>Képzeld el hogy elkezdenek bejönni a megrendelések (vagy, már jönnek is!) és te ennek nagyon-nagyon örülsz. Igen ám de elszörnyedsz amikor meglátod hogy több ezer e-mailt kell elküldened egyenként. Több ezer embert kell szegmensekbe csoportosítanod kézzel. Egy idő után lehet napi több mint nyolc órát kell ebbe belefektetned vagy fel kell venned embereket (amivel kevesebb lesz a bevételed). Nem azért kezdted el az egészet hogy ne kelljen felesleges irodai munkában tönkremenned?</description><content:encoded><![CDATA[<p>Képzeld el hogy <span class="highlight">elkezdenek bejönni a megrendelések (vagy, már jönnek is!)</span> és te ennek nagyon-nagyon örülsz. Igen ám de <span class="highlight">elszörnyedsz amikor meglátod hogy több ezer e-mailt kell elküldened egyenként.</span> Több ezer embert kell szegmensekbe csoportosítanod kézzel. Egy idő után lehet napi több mint nyolc órát kell ebbe belefektetned vagy fel kell venned embereket (<span class="highlight">amivel kevesebb lesz a bevételed</span>). <strong>Nem azért kezdted el az egészet hogy ne kelljen felesleges irodai munkában tönkremenned?</strong></p>
+<p>Ha <span class="highlight">szeretnéd megoldani olcsóbban a vállalkozásod méretezési problémáit</span> (azaz hogy mennyire tud nőni a vásárlótáborod, a termékeid száma és ezzel a bevételed) akkor <span class="highlight">a mai modern világunkban már van erre egyszerűbb megoldás is.</span></p>
+<h1 id="automatizálás">Automatizálás</h1>
+<p>Lehet hallottad már ezt a kifejezést, de a lényeg hogy vannak olyan feladatok amiket már maga a számítógép is el tud végezni. Remélem elindultak már a fogaskerekek az agyadban: &ldquo;&hellip;ha mondjuk beérkezik egy fizetés, akkor a megfelelő kurzus linkjét kapja meg az ügyfél&rdquo; vagy esetleg &ldquo;&hellip;induljon el a hírlevél feliratkozás után egy 5 napos e-mail szekvencia aminek a célja hogy promotálja a kurzusaimat&hellip;&rdquo; Erre már vannak előre megcsinált és saját infrastruktúra nélkül is müködő szolgáltatások.</p>
+<h1 id="a-fekete-leves">A fekete leves&hellip;</h1>
+<p>Az lehet hogy vannak ilyen szolgáltatások <span class="highlight">de drágák és nem te vagy az adatok birtokában.</span> <strong>Bármikor elvehetik az e-mail listád, a fizetési automatizálásokat&hellip;</strong> A lényeg hogy egy centrális erőn múlik hogy a te bizniszed menni fog -e vagy sem.
+<strong>Kis vállalkozóknak nem éri meg évente több millió forintot fizetni</strong> csak azért hogy ezen platformok töredékét kihasználják. <span class="highlight">Havi pár ezer forintért és egy kevés tanulással ezt te is összetudod rakni.</span></p>
+<h1 id="van-megoldás">Van megoldás</h1>
+<p>Persze, megkeresheted ezeket az információkat magad is: <a href="https://s.varigergo.hu/automblog20">vagy engedd meg hogy segítsek</a>. Összegyüjtöttem a csínját-bínját a vállalkozások automatizálásához: hogyan vegyél egy VPS-t <a href="https://s.varigergo.hu/automblog21">(nem baj ha nem értesz itt minden szót, odaát megtudod)</a>, hogyan telepítsd fel a szoftvereket és hogyan kösd őket össze.</p>
+<p>Nem kell minden egyes nap halálra gürcölnöd magad csak azért hogy életben maradjon a vállalkozásod. Tud az magától is müködni: <strong>&ldquo;A gép forog, az alkotó pihen.&rdquo;</strong></p>
 ]]></content:encoded></item><item><title>Az internet hivatalosan is KIHALT...</title><link>https://blog.varigergo.hu/posts/internet-dead/</link><media:thumbnail url="https://blog.varigergo.hu/posts/internet-dead/thumbnail.jpg"/><pubDate>Mon, 17 Apr 2023 00:00:00 +0000</pubDate><guid>https://blog.varigergo.hu/posts/internet-dead/</guid><description>Van egy ismerősöm akitől ha a szép Csehszlovák gyártmányú vonatnak nevezett járművön megkérdezem egy szó fogalmát miközben se fűtés, se hely: mindig tud nekem választ adni. &amp;ldquo;Mi az a szabadfüggőbeszéd?&amp;rdquo; tettem fel bátran ezt a kérdést, hiszen az irodalom dolgozatomra készültem (amit hetek óta már bejelentettek csak helyette ilyen hülye sztorikat írok le). &amp;ldquo;Hát tudod amikor a költő szabadon beszél és közben függeszkedik&amp;hellip;&amp;rdquo; vagy valami ilyesmi. Nagyon okos kiforgatása a szavaknak, a monológ elején majdnem el is hittem hogy ez igaz.</description><content:encoded><![CDATA[<p>Van egy ismerősöm akitől ha a szép Csehszlovák gyártmányú vonatnak nevezett járművön megkérdezem egy szó fogalmát miközben se fűtés, se hely: mindig tud nekem választ adni. &ldquo;Mi az a szabadfüggőbeszéd?&rdquo; tettem fel bátran ezt a kérdést, hiszen az irodalom dolgozatomra készültem (amit hetek óta már bejelentettek csak helyette ilyen hülye sztorikat írok le). &ldquo;Hát tudod amikor a költő szabadon beszél és közben függeszkedik&hellip;&rdquo; vagy valami ilyesmi. Nagyon okos kiforgatása a szavaknak, a monológ elején majdnem el is hittem hogy ez igaz.</p>
 <p>A zuhogó eső (ami beesett a vonatba&hellip;) és a kietlen táj eszembe juttatta az internet halálának lehetséges okát: a mostani trendet hogy mindenféle szöveget és választ a ChatGPT-vel gyártunk le.</p>
 <h1 id="de-hát-tud-jót-is-mondani">&hellip;de hát tud jót is mondani!</h1>
@@ -91,7 +101,87 @@ Csak kövesd az utasításokat, és biztos lehetsz a digitális biztonságodban.
 </div>
 
 
-]]></content:encoded></item><item><title>Legújabb posztok</title><link>https://blog.varigergo.hu/sections/posts/</link><pubDate>Fri, 03 Mar 2023 11:05:21 +0100</pubDate><guid>https://blog.varigergo.hu/sections/posts/</guid><description>Az internet hivatalosan is KIHALT... automatizálás,&amp;nbsp mesterséges intelligencia,&amp;nbsp openai,&amp;nbsp chatgpt,&amp;nbsp chatbot,&amp;nbsp tartalomgyártás,&amp;nbsp marketing Van egy ismerősöm akitől ha a szép Csehszlovák gyártmányú vonatnak nevezett járművön megkérdezem egy … Olvasd tovább Olyan LASSÚ vagy hogy se nőd, se BEVÉTELED nem lesz! optimalizálás,&amp;nbsp weboldal,&amp;nbsp seo,&amp;nbsp automatizálás,&amp;nbsp gyorsaság,&amp;nbsp vállalkozás,&amp;nbsp vállalkozó,&amp;nbsp biznisz,&amp;nbsp pénz,&amp;nbsp bevétel Ha sok úgynevezett Píkáp artisztot hallgattál (de minek&amp;hellip;) vagy csak ismered a mai világot … Olvasd tovább Amikor élesben kell TÍZ ÉV frissítéseit felrakni.</description><content:encoded><![CDATA[<p><div class="columns is-multiline">
+]]></content:encoded></item><item><title>Legújabb posztok</title><link>https://blog.varigergo.hu/sections/posts/</link><pubDate>Fri, 03 Mar 2023 11:05:21 +0100</pubDate><guid>https://blog.varigergo.hu/sections/posts/</guid><description>Túl sok időt vesz el a vállalkozásod? optimalizálás,&amp;nbsp automatizálás,&amp;nbsp gyorsaság,&amp;nbsp vállalkozás,&amp;nbsp vállalkozó,&amp;nbsp biznisz,&amp;nbsp pénz,&amp;nbsp bevétel Képzeld el hogy elkezdenek bejönni a megrendelések (vagy, már jönnek is!) és te ennek nagyon-nagyon … Olvasd tovább Az internet hivatalosan is KIHALT... automatizálás,&amp;nbsp mesterséges intelligencia,&amp;nbsp openai,&amp;nbsp chatgpt,&amp;nbsp chatbot,&amp;nbsp tartalomgyártás,&amp;nbsp marketing Van egy ismerősöm akitől ha a szép Csehszlovák gyártmányú vonatnak nevezett járművön megkérdezem egy … Olvasd tovább Olyan LASSÚ vagy hogy se nőd, se BEVÉTELED nem lesz!</description><content:encoded><![CDATA[<p><div class="columns is-multiline">
+	
+		<div class="column is-one-third">
+			<div class="post color0">
+	
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+	<picture class="img0">
+		
+			
+				<source type="image/webp" srcset="/posts/too-much-business/thumbnail_hu3c1e271d98ad26abece5832d0aad42de_150361_2000x0_resize_q75_h2_box.webp 2000w,
+					
+					
+					
+						
+							/posts/too-much-business/thumbnail_hu3c1e271d98ad26abece5832d0aad42de_150361_9b6dffe1a4977d5728a1ae149e89921e.webp 1500w,
+						
+					
+						
+							/posts/too-much-business/thumbnail_hu3c1e271d98ad26abece5832d0aad42de_150361_911c87a2ad135ea94a8186106e8d17ab.webp 1000w,
+						
+					
+						
+							/posts/too-much-business/thumbnail_hu3c1e271d98ad26abece5832d0aad42de_150361_496203dbc727cb5973775186a604d24c.webp 500w,
+						
+					
+				"/>
+			
+		
+		<source type="image/jpeg" srcset="/posts/too-much-business/thumbnail.jpg"/>
+			<a href="/posts/too-much-business/" aria-label="Túl sok időt vesz el a vállalkozásod?">
+				<img width="2000px" height="1046px" src="/posts/too-much-business/thumbnail.jpg" alt="Túl sok időt vesz el a vállalkozásod?" loading="lazy"/>
+			</a>
+	</picture>
+
+	
+
+
+
+
+	<a href="/posts/too-much-business/"><h1 class="title">Túl sok időt vesz el a vállalkozásod?</h1></a>
+	
+
+	<div class="post-tags">
+		
+			<a href="/tags/optimaliz%C3%A1l%C3%A1s/">optimalizálás</a>,&nbsp
+		
+			<a href="/tags/automatiz%C3%A1l%C3%A1s/">automatizálás</a>,&nbsp
+		
+			<a href="/tags/gyorsas%C3%A1g/">gyorsaság</a>,&nbsp
+		
+			<a href="/tags/v%C3%A1llalkoz%C3%A1s/">vállalkozás</a>,&nbsp
+		
+			<a href="/tags/v%C3%A1llalkoz%C3%B3/">vállalkozó</a>,&nbsp
+		
+			<a href="/tags/biznisz/">biznisz</a>,&nbsp
+		
+			<a href="/tags/p%C3%A9nz/">pénz</a>,&nbsp
+		
+			<a href="/tags/bev%C3%A9tel/">bevétel</a>
+		
+	</div>
+
+
+	Képzeld el hogy elkezdenek bejönni a megrendelések (vagy, már jönnek is!) és te ennek nagyon-nagyon …
+	<span class="decorate-link"><a href="/posts/too-much-business/">Olvasd tovább</a></span>
+</div>
+
+		</div>
 	
 		<div class="column is-one-third">
 			<div class="post color0">
@@ -251,66 +341,6 @@ Csak kövesd az utasításokat, és biztos lehetsz a digitális biztonságodban.
 
 	Ha sok úgynevezett Píkáp artisztot hallgattál (de minek&hellip;) vagy csak ismered a mai világot …
 	<span class="decorate-link"><a href="/posts/worth-optimizing-site/">Olvasd tovább</a></span>
-</div>
-
-		</div>
-	
-		<div class="column is-one-third">
-			<div class="post color0">
-	
-
-
-
-
-
-
-
-
-
-
-
-	
-	
-
-	<picture class="img0">
-		
-			
-				<source type="image/webp" srcset="/posts/automate-marketing/thumbnail_hufd24fd56f027487e2ee80976bd688db0_22314_720x0_resize_q75_h2_box_3.webp 720w,
-					
-					
-					
-						
-							/posts/automate-marketing/thumbnail_hufd24fd56f027487e2ee80976bd688db0_22314_3c8ec87e998d075f9967c79e40abb9e3.webp 540w,
-						
-					
-						
-							/posts/automate-marketing/thumbnail_hufd24fd56f027487e2ee80976bd688db0_22314_f9cdcfbc36fea8b3f3a17fd45fc18c25.webp 360w,
-						
-					
-						
-							/posts/automate-marketing/thumbnail_hufd24fd56f027487e2ee80976bd688db0_22314_4ac1d9718ac13be0e300b4a999481cc9.webp 180w,
-						
-					
-				"/>
-			
-		
-		<source type="image/png" srcset="/posts/automate-marketing/thumbnail.png"/>
-			<a href="/posts/automate-marketing/" aria-label="Amikor élesben kell TÍZ ÉV frissítéseit felrakni...">
-				<img width="720px" height="330px" src="/posts/automate-marketing/thumbnail.png" alt="Amikor élesben kell TÍZ ÉV frissítéseit felrakni..." loading="lazy"/>
-			</a>
-	</picture>
-
-	
-
-
-
-
-	<a href="/posts/automate-marketing/"><h1 class="title">Amikor élesben kell TÍZ ÉV frissítéseit felrakni...</h1></a>
-	
-
-
-	&hellip;a kérdőív már fel volt rakva, az e-mailek már elkezdtek kimenni. Kis, szerény szobámban már …
-	<span class="decorate-link"><a href="/posts/automate-marketing/">Olvasd tovább</a></span>
 </div>
 
 		</div>
