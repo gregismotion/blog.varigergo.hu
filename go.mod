@@ -3,6 +3,6 @@ module github.com/gergovari/blog.varigergo.hu
 go 1.19
 
 require (
-	github.com/gergovari/blog-content v0.0.0-20230418095448-d8d483880b9f // indirect
+	github.com/gergovari/blog-content v0.0.0-20230419103312-9dbcff8642c7 // indirect
 	github.com/gergovari/vyberpunk v0.0.0-20230419060148-1f5add02379e // indirect
 )
