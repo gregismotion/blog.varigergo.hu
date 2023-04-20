@@ -1,7 +1,7 @@
 ---
 ---
 {{< section color=0 >}}
-    {{< newsletter >}}
+    {{< signup "newsletter" >}}
 {{< /section >}}
 {{< section color=1 >}}
     {{< newest-posts >}}
