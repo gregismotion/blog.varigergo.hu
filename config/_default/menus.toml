@@ -1,9 +1,9 @@
 [[start]]
-	name = "cikkek"
+	name = "Posts"
 	url = "/posts"
-	weight = 10
-
-[[end]]
-	name = "rólam"
-	url = "https://varigergo.hu"
 	weight = 1
+
+[[start]]
+	name = "About me"
+	url = "https://varigergo.hu"
+	weight = 10

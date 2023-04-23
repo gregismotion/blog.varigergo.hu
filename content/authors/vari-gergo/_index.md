@@ -1,6 +1,6 @@
 ---
-name: "Vári Gergő"
+name: "Gergő Vári"
 website: "https://varigergo.hu/"
 picture: "picture.png"
 ---
-Digitális lázadó: informatikus, influenszer, üzletember, programozó, varázsló, testépítő, rendszergazda...
+I'm Gergő Vári (Greg for short), a digital rebel: tech guy, influencer, business man, hackerman, wizard, bodybuilder, cult leader, ...

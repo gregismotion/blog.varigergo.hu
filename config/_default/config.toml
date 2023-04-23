@@ -1,6 +1,6 @@
 baseURL = 'https://blog.varigergo.hu'
 languageCode = 'hu-HU'
-title = 'Vári Gergő blogja'
+title = "Gergő Vári's blog"
 
 [taxonomies]
 	author = "authors"
@@ -26,7 +26,3 @@ title = 'Vári Gergő blogja'
 [params.matomo]
 url = "https://matomo.varigergo.hu"
 id = 2
-
-[security]
-	[security.exec]
-	osEnv = ".*"
