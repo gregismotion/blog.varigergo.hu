@@ -26,3 +26,7 @@ title = "Gergő Vári's blog"
 [params.matomo]
 url = "https://matomo.varigergo.hu"
 id = 2
+
+[security]
+	[security.exec]
+	osEnv = ".*"
