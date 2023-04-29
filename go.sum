@@ -64,6 +64,8 @@ github.com/gergovari/blog-content v0.0.0-20230428073847-359c89fe2eaf h1:8wAbnEx0
 github.com/gergovari/blog-content v0.0.0-20230428073847-359c89fe2eaf/go.mod h1:l60EUyfcMS+jdgDKhTGqkB2kp0P7Api3k3KX6c7OKDQ=
 github.com/gergovari/blog-content v0.0.0-20230429072640-5fdf700c8e8f h1:eS72YDqOgFFIJ68HZEauPZiacbEiniJWXITzKzxZdfY=
 github.com/gergovari/blog-content v0.0.0-20230429072640-5fdf700c8e8f/go.mod h1:l60EUyfcMS+jdgDKhTGqkB2kp0P7Api3k3KX6c7OKDQ=
+github.com/gergovari/blog-content v0.0.0-20230429074615-6968284639c7 h1:taOOevasxmGOxThzylHo6lahmL9FNrVxF7u4/kuTw1k=
+github.com/gergovari/blog-content v0.0.0-20230429074615-6968284639c7/go.mod h1:l60EUyfcMS+jdgDKhTGqkB2kp0P7Api3k3KX6c7OKDQ=
 github.com/gergovari/varigergo-shared v0.0.0-20230422092631-9f438224cb6b h1:DZtBJO1aHJRf4C+A6nysgviQUzuWCT0HTvKZFGzSO6s=
 github.com/gergovari/varigergo-shared v0.0.0-20230422092631-9f438224cb6b/go.mod h1:zwYykESSFMZjvTJ9FF6XjWag63Vx1vYUOKYTFuapDq4=
 github.com/gergovari/varigergo-shared v0.0.0-20230423081631-1b327aaae157 h1:9NhgOL4fBACUG/hm3LBoCVwHEFqiaAGcguXo4FHBUwA=
