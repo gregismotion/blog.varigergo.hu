@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:media="http://search.yahoo.com/mrss/"><channel><title>performance on Gergő Vári's blog</title><link>https://blog.varigergo.hu/tags/performance/</link><description>Recent content in performance on Gergő Vári's blog</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 30 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.varigergo.hu/tags/performance/index.xml" rel="self" type="application/rss+xml"/><item><title>Your customers'll NOT WAIT for your website...</title><link>https://blog.varigergo.hu/posts/nobody-wait-site/</link><media:thumbnail url="https://blog.varigergo.hu/posts/nobody-wait-site/thumbnail.jpg"/><pubDate>Sun, 30 Apr 2023 00:00:00 +0000</pubDate><guid>https://blog.varigergo.hu/posts/nobody-wait-site/</guid><description>Imagine that you&amp;rsquo;ve got a great social media presence; your posts are killing it. You&amp;rsquo;ve got many followers; you couldn&amp;rsquo;t even have thought about these numbers a few months ago. Yet, your bounce rate (as in, how many people leave even before fully seeing the first page) is high too. You&amp;rsquo;ve no idea why until you try to click on your website. Sure, you patiently wait out that 4s or more delay until anything appears, but most of your users will not.</description><content:encoded><![CDATA[<p>Imagine that you&rsquo;ve got a great social media presence; your posts are killing it. You&rsquo;ve got many followers; you couldn&rsquo;t even have thought about these numbers a few months ago. Yet, your bounce rate (as in, how many people leave even before fully seeing the first page) is high too. You&rsquo;ve no idea why until you try to click on your website. Sure, you patiently wait out that 4s or more delay until anything appears, but most of your users will not. According to old statistics, HALF of your customers will just leave if nothing happens for 2-3 seconds. And I can guarantee you that with TikTok, Instagram, and other platforms pushing short-form content, these numbers only got worse.</p>
+<p>Because I&rsquo;m such a nice guy (and I wanted to get on people&rsquo;s radar), I started to analyze random accounts&rsquo; websites on Twitter for performance, accessibility, and SEO issues and sent them my reports. For comparison to other people&rsquo;s, here are my site&rsquo;s stats:</p>
+<blockquote>
+<p><strong>Performance</strong>: 95</p>
+<p><strong>Accessibility</strong>: 95</p>
+<p><strong>Best Practices</strong>: 100</p>
+<p><strong>SEO</strong>: 100</p>
+<p>varigergo.hu</p>
+</blockquote>
+<p>A few points come off in performance as I use a CSS framework, which I should clearly break into multiple files and only keep what I need. I&rsquo;ve yet to do that, as that file is quite big and messy, and the requirements for it can change at any time. It wouldn&rsquo;t have that big of an impact, but on mobile connections, even a few bytes can make or break an offer.
+I lose a very few accessibility points because the testing method is not perfect. I&rsquo;ve had many places where I use a darkened background; the tools don&rsquo;t recognize that and think that my color contrast is terrible there. There&rsquo;s nothing to fix about that.</p>
+<p>Now you might think this must be easy; I just achieved it. With a static site generator, it is quite an smooth job. I just wrote the code properly ONCE.</p>
+<p>Let&rsquo;s get back to other websites, I&rsquo;ll not reveal the actual addresses, as these results could be quite embarrassing.</p>
+<blockquote>
+<p><strong>Performance</strong>: 45</p>
+<p><strong>Accessibility</strong>: 85</p>
+<p><strong>Best Practices</strong>: 100</p>
+<p><strong>SEO</strong>: 90</p>
+<p>Website 1</p>
+</blockquote>
+<p>This website ignored contrast ratio issues in many places and loaded too many unnecessary CSS and JS files. Also, images are not served in next-gen formats, which a static site generator will take care of, and you only need to place one copy for that in any format.</p>
+<p>I&rsquo;ll show you the others too, but what I wrote above is a common theme for all of them. The biggest problem is usually the bloat—the unnecessary fat that is carried by the sites. Imagine trying to shoot a rocket into space; what is better, more or less weight?</p>
+<blockquote>
+<p><strong>Performance</strong>: 62</p>
+<p><strong>Accessibility</strong>: 94</p>
+<p><strong>Best Practices</strong>: 100</p>
+<p><strong>SEO</strong>: 100</p>
+<p>Website 2</p>
+</blockquote>
+<blockquote>
+<p><strong>Performance</strong>: 41</p>
+<p><strong>Accessibility</strong>: 83</p>
+<p><strong>Best Practices</strong>: 92</p>
+<p><strong>SEO</strong>: 98</p>
+<p>Website 3</p>
+</blockquote>
+<blockquote>
+<p><strong>Performance</strong>: 38</p>
+<p><strong>Accessibility</strong>: 86</p>
+<p><strong>Best Practices</strong>: 92</p>
+<p><strong>SEO</strong>: 78</p>
+<p>Website 4</p>
+</blockquote>
+<p>Many of these websites were on beehive, WordPress, Gumroad, and other services which I can&rsquo;t recommend for any serious work. They&rsquo;re the definiton of bloat.</p>
+<p><a href="https://varigergo.hu/questionnaires/ask-web3-ready">I could go on and on and on; the point is that probably your site&rsquo;s performance is unusable. Don&rsquo;t worry, I&rsquo;ve got a limited offer for a <strong><span class="highlight">FREE</span> COURSE</strong> on how to modernize your website, just click here!</a></p>
+]]></content:encoded></item></channel></rss>
