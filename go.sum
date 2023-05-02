@@ -184,3 +184,5 @@ github.com/vyberd/funnels v0.0.0-20230502154705-ae498bd08738 h1:dyEMAMQrH4hzEDLo
 github.com/vyberd/funnels v0.0.0-20230502154705-ae498bd08738/go.mod h1:Jd4xtI3LHQ4tazPHMIc2BtTs8kxIJUVtZOvSPS17GS8=
 github.com/vyberd/questionnaires v0.0.0-20230502160430-a71b68588a07 h1:2YhwLG6uHMyT9Cbjckoglzhem7ee+2R/PWgiu1Sp828=
 github.com/vyberd/questionnaires v0.0.0-20230502160430-a71b68588a07/go.mod h1:St0xkyw/Z0tvJDG9X212Lc1RGoG7g2Qf3TOVbKqZ2Lk=
+github.com/vyberd/vyberpunk v0.0.0-20230502161039-c0faf93be2a1 h1:/K3PcwhqH0Omd5kA0X9JQl/GjbbrKnTZEmpNECXN7Vk=
+github.com/vyberd/vyberpunk v0.0.0-20230502161039-c0faf93be2a1/go.mod h1:LpwNohclLMT11zkOaEL3liR8eBK8t9ZJJiMHMcSc25I=
