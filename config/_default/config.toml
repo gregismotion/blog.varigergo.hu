@@ -12,26 +12,9 @@ title = "Gergő Vári's blog"
 		path = "github.com/vyberd/vyberpunk"
 	[[module.imports]]
 		path = "github.com/vyberd/blog"
-	[[module.imports]]
-		path = "github.com/vyberd/funnels"
-	[[module.imports]]
-		path = "github.com/vyberd/checkout"
-	[[module.imports]]
-		path = "github.com/vyberd/questionnaires"
-	[[module.imports]]
-		path = "github.com/vyberd/base"
-	[[module.imports]]
-		path = "github.com/vyberd/gallery"
-	[[module.imports]]
-		path = "github.com/vyberd/navbar"
-	[[module.imports]]
-		path = "github.com/vyberd/animation"
-	[[module.imports]]
-		path = "github.com/vyberd/input"
 
 	[[module.imports]]
 		path = "github.com/gergovari/varigergo-shared"
-
 	[[module.imports]]
 		path = "github.com/gergovari/blog-content"
 
