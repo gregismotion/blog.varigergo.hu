@@ -11,8 +11,10 @@ require (
 	github.com/vyberd/checkout v0.0.0-20230502155248-969dfd3189ef // indirect
 	github.com/vyberd/funnels v0.0.0-20230502154705-ae498bd08738 // indirect
 	github.com/vyberd/gallery v0.0.0-20230508073036-2a1d170d19f1 // indirect
-	github.com/vyberd/input v0.0.0-20230508075532-884ab0fba564 // indirect
+	github.com/vyberd/input v0.0.0-20230508133017-87685c9124ad // indirect
 	github.com/vyberd/navbar v0.0.0-20230508133021-b2159fa4beba // indirect
+	github.com/vyberd/popup v0.0.0-20230508133026-81295837d5a5 // indirect
 	github.com/vyberd/questionnaires v0.0.0-20230508075526-0fb58e08b0b9 // indirect
+	github.com/vyberd/tracking v0.0.0-20230508132955-3ed82afb40ce // indirect
 	github.com/vyberd/vyberpunk v0.0.0-20230508133105-986f8b360402 // indirect
 )

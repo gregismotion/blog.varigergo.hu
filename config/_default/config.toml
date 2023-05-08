@@ -12,6 +12,8 @@ title = "Gergő Vári's blog"
 		path = "github.com/vyberd/vyberpunk"
 	[[module.imports]]
 		path = "github.com/vyberd/blog"
+	[[module.imports]]
+		path = "github.com/vyberd/input"
 
 	[[module.imports]]
 		path = "github.com/gergovari/varigergo-shared"
