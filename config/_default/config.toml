@@ -25,6 +25,9 @@ title = "Gergő Vári's blog"
 url = "https://matomo.varigergo.hu"
 id = 2
 
+[params.mautic]
+url = "https://mautic.varigergo.hu"
+
 [security]
 	[security.exec]
 	osEnv = ".*"
