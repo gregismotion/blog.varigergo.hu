@@ -200,6 +200,7 @@ github.com/vyberd/base v0.0.0-20230508142947-3df1ad9e09d4 h1:p9w4xSYXtr0fTxiPTsr
 github.com/vyberd/base v0.0.0-20230508142947-3df1ad9e09d4/go.mod h1:2vt/cIsWLjkf8lg5DuHFvPfOWghPfMoVDgSUKcGLaMc=
 github.com/vyberd/base v0.0.0-20230513051601-9b4bf39814fd h1:fRAkocj54xY36XYeWQ6ragvur3PWknPNPPzdGyRvqJ0=
 github.com/vyberd/base v0.0.0-20230513051601-9b4bf39814fd/go.mod h1:Ppv03xnOQW9Kh4Uh//VC7i3MfTu1bRlnx2Ng5U+1HwQ=
+github.com/vyberd/base v0.0.0-20230513053638-de7cd17be5ee/go.mod h1:EWVMrnECY+QBI2Dlrz/0OVxNKg+xyhp5LYy3l8CZcbo=
 github.com/vyberd/blog v0.0.0-20230502153511-19b515ee5e77 h1:zvlgd2a3/ApdUcbPyO5wrj1nf1zxVHiPV4woUgXybnk=
 github.com/vyberd/blog v0.0.0-20230502153511-19b515ee5e77/go.mod h1:3NJx0InAHEaRHBfjvNdtZPdwkgqJgNqd2wIwY4GZPgY=
 github.com/vyberd/blog v0.0.0-20230508133007-abc750f956db h1:AvtpBdbW9A2HkBKZk0rpZJLyy5W9vQihqM+xbjBnl7g=
@@ -242,6 +243,7 @@ github.com/vyberd/tracking v0.0.0-20230508132955-3ed82afb40ce h1:6grSvlpobh4vOIP
 github.com/vyberd/tracking v0.0.0-20230508132955-3ed82afb40ce/go.mod h1:FEGIYUlkQtmWlRvBOHufAY5k/keLMfXSGCBoH17vTZs=
 github.com/vyberd/tracking v0.0.0-20230508142508-df817e537ed9 h1:dexFuY3rG1ngs3qtp/3IJImFkdzY1Zfi4KsyB4MaC2k=
 github.com/vyberd/tracking v0.0.0-20230508142508-df817e537ed9/go.mod h1:FEGIYUlkQtmWlRvBOHufAY5k/keLMfXSGCBoH17vTZs=
+github.com/vyberd/tracking v0.0.0-20230513053629-658bc25b0854/go.mod h1:FEGIYUlkQtmWlRvBOHufAY5k/keLMfXSGCBoH17vTZs=
 github.com/vyberd/vyberpunk v0.0.0-20230502161039-c0faf93be2a1 h1:/K3PcwhqH0Omd5kA0X9JQl/GjbbrKnTZEmpNECXN7Vk=
 github.com/vyberd/vyberpunk v0.0.0-20230502161039-c0faf93be2a1/go.mod h1:LpwNohclLMT11zkOaEL3liR8eBK8t9ZJJiMHMcSc25I=
 github.com/vyberd/vyberpunk v0.0.0-20230508072132-fac8ce80e9cc h1:bjAVGGAz/v6w2o0lStM2xfFhFd3hoDSW0XttW6iDA48=
@@ -252,3 +254,5 @@ github.com/vyberd/vyberpunk v0.0.0-20230508143025-c09acbe98718 h1:st+bWIvOAGcR5D
 github.com/vyberd/vyberpunk v0.0.0-20230508143025-c09acbe98718/go.mod h1:vKL3ejRv1kOWgBiI1xIkG6hQ76ld7boYZodJ0fxNTBI=
 github.com/vyberd/vyberpunk v0.0.0-20230513051937-77623ffe4272 h1:ap+VCx6Is6y9KSB+P1TlTLJ2JCLPp91kNs128EBMYNk=
 github.com/vyberd/vyberpunk v0.0.0-20230513051937-77623ffe4272/go.mod h1:2M2NltJ6fjWsmCnY1JydSe/40kYRvnNtbsQ05MezHLU=
+github.com/vyberd/vyberpunk v0.0.0-20230513053801-126e8e516830 h1:ZAI3flwFhSaKc0k5Rg0EYEcDOvQS3man293Nmf6fiAQ=
+github.com/vyberd/vyberpunk v0.0.0-20230513053801-126e8e516830/go.mod h1:/zqa4GNQzgLa66PfHg1+J8NfjPlfRf2iJatk8WPPfyc=
