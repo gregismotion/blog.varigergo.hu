@@ -86,6 +86,8 @@ github.com/gergovari/blog-content v0.0.0-20230507155042-645b7bc95b93 h1:mKDwmoS9
 github.com/gergovari/blog-content v0.0.0-20230507155042-645b7bc95b93/go.mod h1:l60EUyfcMS+jdgDKhTGqkB2kp0P7Api3k3KX6c7OKDQ=
 github.com/gergovari/blog-content v0.0.0-20230514170815-9af4abc8d7ac h1:CbtWT63pnI8W3jl64MfugcTxmU994l8/Kb3XFfsT6+c=
 github.com/gergovari/blog-content v0.0.0-20230514170815-9af4abc8d7ac/go.mod h1:l60EUyfcMS+jdgDKhTGqkB2kp0P7Api3k3KX6c7OKDQ=
+github.com/gergovari/blog-content v0.0.0-20230515145238-043d1663e9a0 h1:0Rwjfkdf8moONWkue1SUrHH6qKhR893/Y+8e0IlJeA0=
+github.com/gergovari/blog-content v0.0.0-20230515145238-043d1663e9a0/go.mod h1:l60EUyfcMS+jdgDKhTGqkB2kp0P7Api3k3KX6c7OKDQ=
 github.com/gergovari/varigergo-shared v0.0.0-20230422092631-9f438224cb6b h1:DZtBJO1aHJRf4C+A6nysgviQUzuWCT0HTvKZFGzSO6s=
 github.com/gergovari/varigergo-shared v0.0.0-20230422092631-9f438224cb6b/go.mod h1:zwYykESSFMZjvTJ9FF6XjWag63Vx1vYUOKYTFuapDq4=
 github.com/gergovari/varigergo-shared v0.0.0-20230423081631-1b327aaae157 h1:9NhgOL4fBACUG/hm3LBoCVwHEFqiaAGcguXo4FHBUwA=
@@ -206,7 +208,9 @@ github.com/vyberd/base v0.0.0-20230513053638-de7cd17be5ee h1:3N07FF0sJFw9/d6G7k+
 github.com/vyberd/base v0.0.0-20230513053638-de7cd17be5ee/go.mod h1:EWVMrnECY+QBI2Dlrz/0OVxNKg+xyhp5LYy3l8CZcbo=
 github.com/vyberd/base v0.0.0-20230513063954-bca7e1f14057 h1:pVDx4g5f+t96FVNThRjyMAM13PdHpIZTrjdaBgsd/kY=
 github.com/vyberd/base v0.0.0-20230513063954-bca7e1f14057/go.mod h1:DyNI4BUbR9D4fwiLtlWVzRCyzRboABZ0uNYcfh0RLrc=
+github.com/vyberd/base v0.0.0-20230514053632-6a9321bf7545 h1:km/zqoIpb14BSKTij5/UlFfuxhIiBTRqzy1AVK+lB/k=
 github.com/vyberd/base v0.0.0-20230514053632-6a9321bf7545/go.mod h1:DyNI4BUbR9D4fwiLtlWVzRCyzRboABZ0uNYcfh0RLrc=
+github.com/vyberd/base v0.0.0-20230516082231-3f1c5f6e9895/go.mod h1:ga2XN2Jp3gTNI7qHBXeJE/OID5EdUjjlykbwtV/9RgY=
 github.com/vyberd/blog v0.0.0-20230502153511-19b515ee5e77 h1:zvlgd2a3/ApdUcbPyO5wrj1nf1zxVHiPV4woUgXybnk=
 github.com/vyberd/blog v0.0.0-20230502153511-19b515ee5e77/go.mod h1:3NJx0InAHEaRHBfjvNdtZPdwkgqJgNqd2wIwY4GZPgY=
 github.com/vyberd/blog v0.0.0-20230508133007-abc750f956db h1:AvtpBdbW9A2HkBKZk0rpZJLyy5W9vQihqM+xbjBnl7g=
@@ -245,6 +249,7 @@ github.com/vyberd/popup v0.0.0-20230508133026-81295837d5a5 h1:NIvQWzOfuX4cYcNfGt
 github.com/vyberd/popup v0.0.0-20230508133026-81295837d5a5/go.mod h1:q2Rg13Y0oogk6tJAHjF1OLLbPk+8rfMxkmQHyo/uZik=
 github.com/vyberd/popup v0.0.0-20230513063917-d989287df810 h1:jA6Yg+RX5JiopBz7/DmErobwvmG5/NMaE5uEsaD3JMI=
 github.com/vyberd/popup v0.0.0-20230513063917-d989287df810/go.mod h1:q2Rg13Y0oogk6tJAHjF1OLLbPk+8rfMxkmQHyo/uZik=
+github.com/vyberd/popup v0.0.0-20230516082211-a0f3df56cda0/go.mod h1:q2Rg13Y0oogk6tJAHjF1OLLbPk+8rfMxkmQHyo/uZik=
 github.com/vyberd/questionnaires v0.0.0-20230502160430-a71b68588a07 h1:2YhwLG6uHMyT9Cbjckoglzhem7ee+2R/PWgiu1Sp828=
 github.com/vyberd/questionnaires v0.0.0-20230502160430-a71b68588a07/go.mod h1:St0xkyw/Z0tvJDG9X212Lc1RGoG7g2Qf3TOVbKqZ2Lk=
 github.com/vyberd/questionnaires v0.0.0-20230508075526-0fb58e08b0b9 h1:xQ50n9Kr2iKkDiplMBm9pkqFR2VfoiEfA3gb76CKZMA=
@@ -259,6 +264,7 @@ github.com/vyberd/tracking v0.0.0-20230513053629-658bc25b0854 h1:F/G04G6A9jxdFnT
 github.com/vyberd/tracking v0.0.0-20230513053629-658bc25b0854/go.mod h1:FEGIYUlkQtmWlRvBOHufAY5k/keLMfXSGCBoH17vTZs=
 github.com/vyberd/tracking v0.0.0-20230513063924-2de497d3c4c8 h1:qqvEtmey61IdFH6VSxErveZ9808i10zae/dTvMfRJNc=
 github.com/vyberd/tracking v0.0.0-20230513063924-2de497d3c4c8/go.mod h1:FVmWQVYPZRQJXsZCajDNzQxQurE2y1jYUhaSacvI9PM=
+github.com/vyberd/tracking v0.0.0-20230516082221-f06cea848f6f/go.mod h1:b3KMx63oidiL82Oy9umq88QIWQw1/0ndB1zws2VejHg=
 github.com/vyberd/vyberpunk v0.0.0-20230502161039-c0faf93be2a1 h1:/K3PcwhqH0Omd5kA0X9JQl/GjbbrKnTZEmpNECXN7Vk=
 github.com/vyberd/vyberpunk v0.0.0-20230502161039-c0faf93be2a1/go.mod h1:LpwNohclLMT11zkOaEL3liR8eBK8t9ZJJiMHMcSc25I=
 github.com/vyberd/vyberpunk v0.0.0-20230508072132-fac8ce80e9cc h1:bjAVGGAz/v6w2o0lStM2xfFhFd3hoDSW0XttW6iDA48=
@@ -277,3 +283,5 @@ github.com/vyberd/vyberpunk v0.0.0-20230513064913-ea639f531c55 h1:dpLaHyoCPipN0q
 github.com/vyberd/vyberpunk v0.0.0-20230513064913-ea639f531c55/go.mod h1:cmFOR7QH6ijbCsST/I51zjOVbc+RYnEAtr7Xv1tqS9M=
 github.com/vyberd/vyberpunk v0.0.0-20230514053717-7f86041747b6 h1:EDBNabhpn70BQt+W+6VXpujA9+HFZABMHa1gfKJoKxE=
 github.com/vyberd/vyberpunk v0.0.0-20230514053717-7f86041747b6/go.mod h1:cpWwmZZ5Kc79INhZlpozh10C9Mc15kRI3M6FK6jfl4M=
+github.com/vyberd/vyberpunk v0.0.0-20230516082333-4e30cb4bbf78 h1:kZtsniPsFs2lKpWOvzto0Zo5ai/RDyfHSFudRjwWRkU=
+github.com/vyberd/vyberpunk v0.0.0-20230516082333-4e30cb4bbf78/go.mod h1:mne+UHPDyY9CRwFolmadDPlsyu5K3vsiqs59ojeAq60=
