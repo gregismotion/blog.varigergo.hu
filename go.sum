@@ -108,6 +108,8 @@ github.com/gergovari/varigergo-shared v0.0.0-20230508130749-39eab432db48 h1:P4c8
 github.com/gergovari/varigergo-shared v0.0.0-20230508130749-39eab432db48/go.mod h1:zwYykESSFMZjvTJ9FF6XjWag63Vx1vYUOKYTFuapDq4=
 github.com/gergovari/varigergo-shared v0.0.0-20230607093537-8dbed693f657 h1:EgBZaVwA4C+lgVxUJZ6txNmQYCa0qsQFWXCVPdfZ6cE=
 github.com/gergovari/varigergo-shared v0.0.0-20230607093537-8dbed693f657/go.mod h1:QbJp6KDTRQFbgC/YIKEXYEhdvBec2wfU+cclaMqV5Ig=
+github.com/gergovari/varigergo-shared v0.0.0-20230618105540-fd7214b77d95 h1:fDqwcnGZL6dir7iKjw3XmiM+pE6VNeTPN6hKJCq1F5c=
+github.com/gergovari/varigergo-shared v0.0.0-20230618105540-fd7214b77d95/go.mod h1:QbJp6KDTRQFbgC/YIKEXYEhdvBec2wfU+cclaMqV5Ig=
 github.com/gergovari/vyberpunk v0.0.0-20230328165840-1e51e93bf075 h1:Bsb0EOiB+dp6Lm0bySIxAZdVr/IUh9gU84Xd7V5OP/0=
 github.com/gergovari/vyberpunk v0.0.0-20230328165840-1e51e93bf075/go.mod h1:opIEPs1vzAZprFQliEna08OJ0Bf1upEwyt8lruKHd4w=
 github.com/gergovari/vyberpunk v0.0.0-20230330123057-e23be47551e0 h1:cHjsrZ6X6iWu7tVF7QwzBBgON9m/uGyaEC4SMVwEpPY=
@@ -206,6 +208,7 @@ github.com/vyberd/animation v0.0.0-20230508074719-6039ef50f748 h1:BbmC+Gtvkdf48H
 github.com/vyberd/animation v0.0.0-20230508074719-6039ef50f748/go.mod h1:qAS+FerjvdbAVYxJf3ABbBdX5jjnILVclfBwxJC4UmA=
 github.com/vyberd/animation v0.0.0-20230508132901-479aeb059716 h1:FJp0ahY9tDvRFzbfJVpzc582T1AqWvSSHI1WPsXMiuM=
 github.com/vyberd/animation v0.0.0-20230508132901-479aeb059716/go.mod h1:zbuZg2ua2PMmbn9YOzCpbAlVwIGk1Ru+v9DteRMgUuk=
+github.com/vyberd/animation v0.0.0-20230618072610-922147f4a4ad h1:/aD7p50cNGfwwpMP/Nom9aelym4IFg6ZbCw0IdHPFVA=
 github.com/vyberd/animation v0.0.0-20230618072610-922147f4a4ad/go.mod h1:zbuZg2ua2PMmbn9YOzCpbAlVwIGk1Ru+v9DteRMgUuk=
 github.com/vyberd/base v0.0.0-20230508072822-681152e4787f h1:UE7Cty4vEVlU9wJj1mW8RYX7k7UA8RT/8AzDkEwaGkM=
 github.com/vyberd/base v0.0.0-20230508072822-681152e4787f/go.mod h1:K3PO96Ici2uAPuB2T2LNYWTJ9PGt3YAWC+tm7RppKTI=
@@ -263,6 +266,7 @@ github.com/vyberd/navbar v0.0.0-20230508133021-b2159fa4beba h1:bNN2mEQsX6hvLTdAE
 github.com/vyberd/navbar v0.0.0-20230508133021-b2159fa4beba/go.mod h1:775W0Vi6zPXBp60LULlYMbdijvhr1GsUJRnHNYsML9c=
 github.com/vyberd/navbar v0.0.0-20230509072641-ee2dda386a72 h1:xbdArJnADwZGVZKaY8TVbt0Ml59AVLBIv2F3w82hlfE=
 github.com/vyberd/navbar v0.0.0-20230509072641-ee2dda386a72/go.mod h1:775W0Vi6zPXBp60LULlYMbdijvhr1GsUJRnHNYsML9c=
+github.com/vyberd/navbar v0.0.0-20230618072321-9fafc8feef46 h1:pwbdsguXzClYQNadfvQOI4UwKUcrSI3scK0TNzx0rdk=
 github.com/vyberd/navbar v0.0.0-20230618072321-9fafc8feef46/go.mod h1:775W0Vi6zPXBp60LULlYMbdijvhr1GsUJRnHNYsML9c=
 github.com/vyberd/popup v0.0.0-20230508133026-81295837d5a5 h1:NIvQWzOfuX4cYcNfGtXbYN2fZFySckiQdbmVVnKdaxM=
 github.com/vyberd/popup v0.0.0-20230508133026-81295837d5a5/go.mod h1:q2Rg13Y0oogk6tJAHjF1OLLbPk+8rfMxkmQHyo/uZik=
