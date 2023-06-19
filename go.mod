@@ -3,7 +3,7 @@ module github.com/gergovari/blog.varigergo.hu
 go 1.19
 
 require (
-	github.com/gergovari/blog-content v0.0.0-20230619120408-e883edc947b8 // indirect
+	github.com/gergovari/blog-content v0.0.0-20230619121353-fd612ea85ebd // indirect
 	github.com/gergovari/varigergo-shared v0.0.0-20230618105540-fd7214b77d95 // indirect
 	github.com/vyberd/animation v0.0.0-20230618072610-922147f4a4ad // indirect
 	github.com/vyberd/base v0.0.0-20230607073226-8cfee778e69e // indirect
