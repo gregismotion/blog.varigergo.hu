@@ -100,6 +100,8 @@ github.com/gergovari/blog-content v0.0.0-20230618110701-b1c8389d90dd h1:JEPoHrt3
 github.com/gergovari/blog-content v0.0.0-20230618110701-b1c8389d90dd/go.mod h1:l60EUyfcMS+jdgDKhTGqkB2kp0P7Api3k3KX6c7OKDQ=
 github.com/gergovari/blog-content v0.0.0-20230618111054-e1d94005be99 h1:oI3dKPXbtQKg6wmTuc4R99PX+NwP4tDsKShpr5c9bOM=
 github.com/gergovari/blog-content v0.0.0-20230618111054-e1d94005be99/go.mod h1:l60EUyfcMS+jdgDKhTGqkB2kp0P7Api3k3KX6c7OKDQ=
+github.com/gergovari/blog-content v0.0.0-20230619120408-e883edc947b8 h1:QUY1AfaPxJlXQKlRahLpeW4bkJNb5LT2HCx4DHL0OAk=
+github.com/gergovari/blog-content v0.0.0-20230619120408-e883edc947b8/go.mod h1:l60EUyfcMS+jdgDKhTGqkB2kp0P7Api3k3KX6c7OKDQ=
 github.com/gergovari/varigergo-shared v0.0.0-20230422092631-9f438224cb6b h1:DZtBJO1aHJRf4C+A6nysgviQUzuWCT0HTvKZFGzSO6s=
 github.com/gergovari/varigergo-shared v0.0.0-20230422092631-9f438224cb6b/go.mod h1:zwYykESSFMZjvTJ9FF6XjWag63Vx1vYUOKYTFuapDq4=
 github.com/gergovari/varigergo-shared v0.0.0-20230423081631-1b327aaae157 h1:9NhgOL4fBACUG/hm3LBoCVwHEFqiaAGcguXo4FHBUwA=
@@ -318,3 +320,5 @@ github.com/vyberd/vyberpunk v0.0.0-20230607073402-8004d17765b3 h1:UbQSUBv6nZZ8rR
 github.com/vyberd/vyberpunk v0.0.0-20230607073402-8004d17765b3/go.mod h1:PEpfTPxRl3VkcDsO9j8VPXJPyBgSOL7aqYoPgq/zV3I=
 github.com/vyberd/vyberpunk v0.0.0-20230618072730-2089b9fd89cd h1:WJ2+xTD1r97agfjJajabrd48PpBuZbHTTDDo1eznzh4=
 github.com/vyberd/vyberpunk v0.0.0-20230618072730-2089b9fd89cd/go.mod h1:TQ1Sj9xNvW0ul3nIrEYrts/5XSrFOFbO0vnk/gAjofc=
+github.com/vyberd/vyberpunk v0.0.0-20230619115251-385bcbe371bc h1:IWkhMp7dMzWioHdlAx4Ivxnj9MESl/fA3oHhRCMbjIY=
+github.com/vyberd/vyberpunk v0.0.0-20230619115251-385bcbe371bc/go.mod h1:TQ1Sj9xNvW0ul3nIrEYrts/5XSrFOFbO0vnk/gAjofc=
