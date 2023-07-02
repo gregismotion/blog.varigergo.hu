@@ -4,7 +4,7 @@ go 1.19
 
 require (
 	github.com/gergovari/blog-content v0.0.0-20230624133222-c9a05d11caae // indirect
-	github.com/gergovari/varigergo-shared v0.0.0-20230618105540-fd7214b77d95 // indirect
+	github.com/gergovari/varigergo-shared v0.0.0-20230702085850-df528e8e67cc // indirect
 	github.com/vyberd/animation v0.0.0-20230618072610-922147f4a4ad // indirect
 	github.com/vyberd/base v0.0.0-20230607073226-8cfee778e69e // indirect
 	github.com/vyberd/blog v0.0.0-20230509073640-670310128c43 // indirect
